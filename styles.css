@@ -1,0 +1,98 @@
+*{
+  text-align: center;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+}
+.collapsible {
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: center;
+outline: none;
+font-size: 15px;
+}
+.content {
+padding: 0 18px;
+display: none;
+overflow: hidden;
+color: #000;
+}
+.content a{
+  color: #000;
+}
+img{
+image-rendering: auto;
+}
+header {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+color: black;
+background-color:whitesmoke;
+}
+header h2 {
+flex: auto;
+overflow: hidden;
+padding-right: 75%;
+}
+nav {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  text-size-adjust: 30px;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: black;
+  padding-top: -30px;
+  text-decoration: none;
+}
+.bt {
+display: inline-block;
+padding: 10px 20px;
+background-color: #22b65a;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 290px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+footer {
+        
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  }
